@@ -56,9 +56,27 @@ Installation Instructions
 
  ```
  $ cd ~/catkin_ws/src
- $ git clone git@github.com:ethz-asl/rotors_simulator.git
- $ git clone git@github.com:ethz-asl/mav_comm.git
+ $ git clone git@github.com:westpoint-robotics/rotors_simulator.git
+ $ git clone git@github.com:westpoint-robotics/mav_comm.git
+ $ git clone git@github.com:westpoint-robotics/glog_catkin.git
  ```
+ In order to compile rotors simulator on Ubuntu 16.04 and ROS Kinetic should should checkout the following version of the above packages:
+ 
+ rotors_simulator
+ ```
+ $ git checkout 97b3da2d02ab498b0c9d7a15d0297e72fe6b6482
+ ```
+
+mav_comm
+```
+$ git checkout de1b6294fa30f2c5fb892831bc86bd7ec8c08d00
+```
+
+glog_catkin
+```
+$ git checkout  942b8dfbe6bd567b1a0b41531016fd6cf10f0b3c
+```
+ 
   > **Note** On OS X you to install yaml-cpp using Homebrew `brew install yaml-cpp`.
  
   > **Note** if you want to use `wstool` you can replace the above commands with
