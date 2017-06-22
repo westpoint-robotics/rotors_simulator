@@ -60,7 +60,7 @@ Installation Instructions
  $ git clone git@github.com:westpoint-robotics/mav_comm.git
  $ git clone git@github.com:westpoint-robotics/glog_catkin.git
  ```
- In order to compile rotors simulator on Ubuntu 16.04 and ROS Kinetic should should checkout the following version of the above packages (git fetch might be required in each package):
+ In order to compile rotors simulator on Ubuntu 16.04 and ROS Kinetic you should checkout the following version of the above packages (git fetch might be required in each package):
  
  rotors_simulator
  ```
